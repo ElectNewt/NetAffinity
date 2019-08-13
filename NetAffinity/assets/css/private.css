@@ -1,0 +1,378 @@
+/*****FONTS***/
+@font-face {
+	font-family: "gothamBook";
+	src: url('../fonts/gotham-book.ttf');
+}
+@font-face {
+	font-family: "gothamMedium";
+	src: url('../fonts/gotham-medium.ttf');
+}
+
+@font-face {
+	font-family: "gothamBoldd";
+	src: url('../fonts/gotham-boldd.ttf');
+}
+
+@font-face {
+	font-family: "proximanova";
+	src: url('../fonts/proxima-nova-regular.ttf');
+}
+
+.logo {
+	font-family: "gothamBook";
+}
+
+.optionnav {
+	font-family: "gothamBook";
+}
+
+h1 {
+	font-family: "gothamBold";
+}
+h4 {
+	font-family: "gothamBold";
+}
+.subtitle {
+	font-family: "proximanova";
+}
+
+.subtitlemain {
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.navbar-toggle .icon-bar {
+	display: block;
+	width: 22px;
+	height: 2px;
+	background-color: #cccccc;
+	border-radius: 1px;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+#p-work hr {
+	width: 220px;
+	border: 2px solid #000000;
+	margin-bottom: 40px;
+}
+
+#p-main {
+	background: url('../img/imgheader.png');
+	background-size: 100% auto;
+	height: 550px;
+	background-repeat: no-repeat;
+}
+
+#p-team .teammate {
+	background-color: white;
+	width: 270px;
+	height: 250px;
+	border: 0px solid #999999;
+	-moz-box-shadow: 0px 0px 1px #000000;
+	-webkit-box-shadow: 0px 0px 1px #000000;
+	box-shadow: 0px 0px 1px #000000;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#p-team {
+	background-color: #f3f3f3;
+}
+
+#p-team hr {
+	width: 180px;
+	border: 2px solid #000000;
+	margin-bottom: 40px;
+}
+
+.icons {
+	padding-top: 30px;
+	color: red;
+}
+
+.iconoflecha {
+	margin-left: 12px;
+	margin-top: 4px;
+	color: black;
+}
+.icono {
+	color: #5f5f5f;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+footer {
+	font-family: "proximanova";
+	display: block;
+	background-color: #4f4f4f;
+	vertical-align: middle;
+	height: 60px;
+	color: #acabad;
+}
+
+#p-contact hr {
+	width: 180px;
+	border: 2px solid #000000;
+	margin-bottom: 40px;
+}
+
+.textopie {
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+#formcontact {
+	margin-top: 30px;
+}
+#contactarea {
+	height: 230px;
+	background-color: #f2f2f2;
+}
+#contactsend {
+	font-family: "gothamBold";
+	letter-spacing: 2px;
+	height: 50px;
+	width: 100%;
+}
+#contactmail {
+	height: 50px;
+	background-color: #f2f2f2;
+}
+
+.navpad {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.navpad a {
+	color: #555555;
+}
+
+#p-work img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.divflecha {
+	margin: auto;
+	margin-top: 100px;
+	height: 60px;
+	width: 60px;
+	border: 0px solid #999999;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	background-color: white;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 15px #000000;
+	-webkit-box-shadow: 0px 0px 15px #000000;
+	box-shadow: 0px 0px 0px 15px rgba(255,255,255,0.3);
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+
+}
+
+@media screen and (min-width: 320px) {
+	.divflecha {
+		visibility: hidden;
+	}
+
+	#p-main {
+		background: url('../img/imgheader.png');
+		background-size: 100% auto;
+		height: 160px;
+		background-repeat: no-repeat;
+	}
+
+	.separatethumbails {
+		margin-top: 12px;
+	}
+
+	.subtitle {
+
+		font-size: 11pt;
+		color: #5a5a5a;
+	}
+	#p-team {
+		padding-top: 16px;
+		padding-bottom: 25px;
+	}
+	.bordermap {
+
+		margin-top: 30px;
+	}
+
+	#p-contact {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#p-work {
+		padding-top: 20px;
+		padding-bottom: 30px;
+	}
+	h1{
+	    font-size:200%;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+	.divflecha {
+		visibility: visible;
+	}
+
+	.separatethumbails {
+		margin-top: 28px;
+	}
+
+	.subtitle {
+
+		font-size: 12pt;
+		color: #5a5a5a;
+	}
+
+	#p-main {
+		background: url('../img/imgheader.png');
+		background-size: 100% auto;
+		height: 330px;
+		background-repeat: no-repeat;
+	}
+
+	#p-team {
+		padding-top: 32px;
+		padding-bottom: 50px;
+	}
+
+	.bordermap {
+
+		margin-top: 30px;
+	}
+	#p-contact {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	#p-work {
+		padding-top: 40px;
+		padding-bottom: 70px;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	#p-main {
+		background: url('../img/imgheader.png');
+		background-size: 100% auto;
+		height: 550px;
+		background-repeat: no-repeat;
+		
+	}
+
+	#p-work {
+		padding-top: 40px;
+		padding-bottom: 100px;
+	}
+
+	.tmain {
+		margin-top: 15%;
+	}
+
+	#p-team {
+		padding-top: 60px;
+		padding-bottom: 100px;
+		background-color: #f3f3f3;
+	}
+
+	.divflecha {
+		visibility: visible;
+	}
+
+	.bordermap {
+
+		margin-top: 30px;
+	}
+
+	.subtitle {
+
+		font-size: 14pt;
+		color: #5a5a5a;
+	}
+
+	.separatethumbails {
+		margin-top: 50px;
+	}
+
+	#p-contact {
+		padding-top: 40px;
+		padding-bottom: 40px;
+
+	}
+
+	.responsives {
+		width: 265px;
+	}
+
+	.optionnav {
+		padding-right: 50px;
+		padding-left: 10px;
+	}
+
+}
+
+.btn-sendbutton {
+	color: #FFFFFF;
+	background-color: #6995A9;
+	border-color: #FFFFFF;
+}
+
+.btn-sendbutton:hover, .btn-sendbutton:focus, .btn-sendbutton:active, .btn-sendbutton.active, .open .dropdown-toggle.btn-sendbutton {
+	color: #FFFFFF;
+	background-color: #37677D;
+	border-color: #FFFFFF;
+}
+
+.btn-sendbutton:active, .btn-sendbutton.active, .open .dropdown-toggle.btn-sendbutton {
+	background-image: none;
+}
+
+.btn-sendbutton.disabled, .btn-sendbutton[disabled], fieldset[disabled] .btn-sendbutton, .btn-sendbutton.disabled:hover, .btn-sendbutton[disabled]:hover, fieldset[disabled] .btn-sendbutton:hover, .btn-sendbutton.disabled:focus, .btn-sendbutton[disabled]:focus, fieldset[disabled] .btn-sendbutton:focus, .btn-sendbutton.disabled:active, .btn-sendbutton[disabled]:active, fieldset[disabled] .btn-sendbutton:active, .btn-sendbutton.disabled.active, .btn-sendbutton[disabled].active, fieldset[disabled] .btn-sendbutton.active {
+	background-color: #6995A9;
+	border-color: #FFFFFF;
+}
+.btn-sendbutton .badge {
+	color: #6995A9;
+	background-color: #FFFFFF;
+}
+
+/*****PLACEHOLDER****/
+
+/* individual: webkit */
+
+#contactarea::-webkit-input-placeholder {
+	font-family: Georgia;
+	font-style: italic;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#contactmail::-webkit-input-placeholder {
+	font-family: Georgia;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+/* individual: mozilla */
+#contactarea::-moz-placeholder {
+	font-family: Georgia;
+	font-style: italic;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+#contactmail::-moz-placeholder {
+	font-family: Georgia;
+	font-style: italic;
+	padding-left: 20px;
+}
